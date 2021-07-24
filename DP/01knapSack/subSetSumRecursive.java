@@ -1,5 +1,5 @@
 import java.util.*;
-class subSetSum{
+class subSetSumRecursive{
     public static void main(String[] args){
        int wt[] = {3,34,4,12,5,2};       
        int n = wt.length;
