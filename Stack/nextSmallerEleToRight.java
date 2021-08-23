@@ -16,6 +16,7 @@ public class nextSmallerEleToRight {
 			else v.add(s.peek());
 		s.push((int)ar[i]);
 		}
+		Collections.reverse(v);
 		Integer arr[] = new Integer[n];
 		arr = v.toArray(arr);
 		long[] A = new long[n];
