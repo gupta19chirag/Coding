@@ -22,7 +22,7 @@ class nextGreaterElement{
       }
       s.push(arr[i]);
     }
-    Collections.reverse();
+    Collections.reverse(v);
     return v;
   }
 }
