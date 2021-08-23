@@ -6,7 +6,7 @@ If now stack is empty so simply place -1
 else add the top elemnet of the stack that is array ele is small than the top element of the stack. 
 */
 import java.util.*;
-class nextGreaterElement{
+class nextGreaterElementRight{
   public static ArrayList<Integer> solution(int a[],int n){
     ArrayList<Integer> v = new ArrayList<Integer>;
     Stack<Integer> s = new Stack<>();
