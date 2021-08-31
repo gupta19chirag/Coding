@@ -1,0 +1,20 @@
+// How to make a n size array whose elements sum is equal to the given number. Range of the elements will be 1 - 6;
+// Microsoft Dice Problem
+sum = 9, n = 4; Output will be:- [6,1,1,1]
+Logic:-
+  while(sum){
+    if(sum >= 5+f){// Inspite of 5 we can use any number one less the upperbound of the given range
+      ans.add(6);
+      sum -= 6;
+      f--;
+    }
+    else{
+      ans.add(sum-=(f-1));// After adding 6 to set the new sum will be 3. And 3 < 8. So we enter the else block and add(3-2).
+      f--;
+      while(f--){
+        ans.add(1);
+        f--;
+      }
+      break;
+    }
+  }
